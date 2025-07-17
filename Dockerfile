@@ -15,3 +15,6 @@ RUN a2enmod rewrite \
 # 権限調整（必要）
 RUN chown -R www-data:www-data /var/www/html \
  && chmod -R 755 /var/www/html
+ 
+ RUN a2enmod rewrite && \
+ sed -i 's/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf

@@ -46,9 +46,12 @@ if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PRO
 }
 */
 
+
+
 // WordPress インストールディレクトリの絶対パス
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-
+define('WP_HOME', 'https://lp1-wedding-campaign-jp-665477084949.asia-northeast1.run.app');
+define('WP_SITEURL', 'https://lp1-wedding-campaign-jp-665477084949.asia-northeast1.run.app');
 require_once ABSPATH . 'wp-settings.php';
