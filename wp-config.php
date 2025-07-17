@@ -41,7 +41,7 @@ define('WP_HOME', 'https://lp1-wedding-campaign-jp-665477084949.asia-northeast1.
 define('WP_SITEURL', 'https://lp1-wedding-campaign-jp-665477084949.asia-northeast1.run.app');
 
 /*
-// オプション：強制的に https にリダイレクトする場合はこちらも有効に
+// オプション：強制的に https にリdダイレクトする場合はこちらも有効に
 if (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] !== 'https') {
 	header('Location: https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], true, 301);
 	exit;
