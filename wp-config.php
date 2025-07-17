@@ -12,7 +12,7 @@ define( 'DB_HOST', getenv('DB_HOST') ); // unix_socket か IP address を指定
 define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', '' );
 
-// Cloud Storage 連携する場合：uploads を外部にマウントしていればこの行は不要
+// Cloud Stdorage 連携する場合：uploads を外部にマウントしていればこの行は不要
 // define( 'UPLOADS', 'gs://your-gcs-bucket/wp-content/uploads' );
 
 // 認証用キー（環境変数から取得）
